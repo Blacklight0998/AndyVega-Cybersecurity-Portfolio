@@ -18,6 +18,8 @@ Users and privileges
 Monitoring
    ↓
 Logs and troubleshooting
+   ↓
+Security audit
 ```
 
 ## 1. Infrastructure, Administration & Monitoring
@@ -72,6 +74,16 @@ I reviewed:
 - memory usage with `free`
 
 One useful lesson from this activity was not to assume that every warning or failed login explains the problem. I had to compare the logs with process and resource evidence before writing a conclusion.
+
+## 4. Linux Log Audit & Security Review
+
+[View this section](./linux-log-audit-security-review/)
+
+This case used a simulated server with suspicious SSH activity, backup failures and insecure file permissions.
+
+I used command-line tools to extract failed login attempts, count activity by source IP, identify invalid usernames, review `sudo` activity and separate backup warnings and errors.
+
+The part I found most useful was turning the raw log entries into a short set of findings and mitigations instead of stopping at the command output.
 
 ## Why this matters to me
 
