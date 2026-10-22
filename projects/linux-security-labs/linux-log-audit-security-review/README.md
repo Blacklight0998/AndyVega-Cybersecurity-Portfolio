@@ -25,6 +25,12 @@ Some of the tasks included:
 - creating a compressed backup and restoring it
 - generating a short audit report from the command line
 
+### Evidence: file and permission review
+
+![File and permission review](./screenshots/permissions-files.svg)
+
+This part of the exercise included locating files by type and size, finding unsafe permissions and correcting them with `chmod`.
+
 ## Findings
 
 The simulated logs contained a few things worth investigating.
@@ -46,6 +52,12 @@ That does not prove the account was compromised, but it is activity I would want
 The backup log also showed repeated disk-full errors and a file with `777` permissions.
 
 I corrected the insecure permissions in the exercise and documented disk-space monitoring and cleanup as part of the recommendations.
+
+### Evidence: final audit summary
+
+![Final audit summary](./screenshots/audit-report.svg)
+
+The final report brought together the failed-login source, invalid usernames, backup errors and the main findings from the review.
 
 ## What I learned
 
