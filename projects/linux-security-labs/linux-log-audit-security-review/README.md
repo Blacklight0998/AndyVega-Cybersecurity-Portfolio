@@ -25,6 +25,10 @@ Some of the tasks included:
 - creating a compressed backup and restoring it
 - generating a short audit report from the command line
 
+### SSH log analysis
+
+![SSH log analysis](./screenshots/imagen_2026-10-22_003012082.png)
+
 ## Findings
 
 The simulated logs contained a few things worth investigating.
@@ -46,6 +50,18 @@ That does not prove the account was compromised, but it is activity I would want
 The backup log also showed repeated disk-full errors and a file with `777` permissions.
 
 I corrected the insecure permissions in the exercise and documented disk-space monitoring and cleanup as part of the recommendations.
+
+### File permissions and backup work
+
+![File permissions and backup work](./screenshots/imagen_2026-10-22_003100405.png)
+
+### Backup restoration and links
+
+![Backup restoration and links](./screenshots/imagen_2026-10-22_003107880.png)
+
+### Final audit summary
+
+![Final audit summary](./screenshots/imagen_2026-10-22_003117455.png)
 
 ## What I learned
 
