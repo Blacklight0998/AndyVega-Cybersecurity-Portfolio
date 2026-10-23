@@ -23,13 +23,13 @@ The program:
 
 ### Password hashing
 
-![Password hashing output](./screenshots/imagen_2026-10-22_230956612.png)
+![Password hashing output](./screenshots/01_password_hashing.png)
 
 This capture shows the command-line menu and the SHA-256 hash generated from a password entered with `getpass`.
 
 ### Web scraping
 
-![Web scraping output](./screenshots/imagen_2026-10-22_230444249.png)
+![Web scraping output](./screenshots/02_web_scraping.png)
 
 The scraping output includes the product name, original and discounted prices, discount percentage and additional product information extracted from the page.
 

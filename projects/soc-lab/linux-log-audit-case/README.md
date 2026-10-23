@@ -27,7 +27,7 @@ Some of the tasks included:
 
 ### SSH log analysis
 
-![SSH log analysis](./screenshots/imagen_2026-10-22_003012082.png)
+![SSH log analysis](./screenshots/01_ssh_log_analysis.png)
 
 ## Findings
 
@@ -53,15 +53,15 @@ I corrected the insecure permissions in the exercise and documented disk-space m
 
 ### File permissions and backup work
 
-![File permissions and backup work](./screenshots/imagen_2026-10-22_003100405.png)
+![File permissions and backup work](./screenshots/02_file_permissions_and_backup.png)
 
 ### Backup restoration and links
 
-![Backup restoration and links](./screenshots/imagen_2026-10-22_003107880.png)
+![Backup restoration and links](./screenshots/03_backup_restoration.png)
 
 ### Final audit summary
 
-![Final audit summary](./screenshots/imagen_2026-10-22_003117455.png)
+![Final audit summary](./screenshots/04_final_audit_summary.png)
 
 ## What I learned
 

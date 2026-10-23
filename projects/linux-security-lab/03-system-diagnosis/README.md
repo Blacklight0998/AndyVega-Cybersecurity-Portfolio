@@ -1,6 +1,6 @@
 # Phase 3 — Linux System Diagnosis & Log Analysis
 
-This is the troubleshooting/investigation part of the larger [Linux Security Administration & Monitoring Lab](../).
+This is the troubleshooting/investigation part of the [Linux Security Lab](../).
 
 The activity simulated a Linux system that was reported as slow. Instead of assuming the cause, I reviewed logs, processes and resource usage to see what the evidence actually showed.
 

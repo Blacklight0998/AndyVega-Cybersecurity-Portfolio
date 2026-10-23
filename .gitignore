@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated scan reports (may contain data about real targets)
+projects/python-security-tools/network-recon-tool/reports/*
+!projects/python-security-tools/network-recon-tool/reports/.gitkeep
+
+# Packet captures can contain private data
+*.pcap
+*.pcapng
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,6 +1,6 @@
 # Phase 2 — Linux Identity & Access Management
 
-This is the access-control part of the larger [Linux Security Administration & Monitoring Lab](../).
+This is the access-control part of the [Linux Security Lab](../).
 
 The exercise was based on a small company scenario where different users needed their own accounts instead of sharing a generic login.
 
@@ -53,4 +53,4 @@ The screenshots are from the original Ubuntu activity. Personal system identifie
 
 ## Context
 
-This came from the Basic Operating Systems course at Universidad Fidélitas. I kept it as part of the larger Linux project because identity, privileges and session review are directly related to the administration and investigation work in the other sections.
+This came from the Basic Operating Systems course at Universidad Fidélitas. I kept it in the Linux Security Lab because identity, privileges and session review are directly related to the administration and investigation work in the other phases.

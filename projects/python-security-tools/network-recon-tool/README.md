@@ -35,7 +35,7 @@ The default port list is intentionally small because this is a learning project,
 ## Project structure
 
 ```text
-python-network-reconnaissance-tool/
+network-recon-tool/
 ├── main.py
 ├── modules/
 │   ├── dns_enum.py
