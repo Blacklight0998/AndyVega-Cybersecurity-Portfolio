@@ -19,6 +19,20 @@ The program:
 - extracts product information using HTML parsing and regular expressions
 - runs through a simple command-line menu
 
+## Execution evidence
+
+### Password hashing
+
+![Password hashing output](./screenshots/imagen_2026-10-22_230956612.png)
+
+This capture shows the command-line menu and the SHA-256 hash generated from a password entered with `getpass`.
+
+### Web scraping
+
+![Web scraping output](./screenshots/imagen_2026-10-22_230444249.png)
+
+The scraping output includes the product name, original and discounted prices, discount percentage and additional product information extracted from the page.
+
 ## Small improvement from the original version
 
 The original exercise used AES-EAX to encrypt a password.
@@ -40,7 +54,7 @@ This is still a learning exercise. SHA-256 by itself is not the approach I would
 ## Files
 
 - `web_security_scraping.py` — main program
-- `screenshots/` — execution evidence from the original exercise
+- `screenshots/` — execution evidence
 
 ## Context
 
