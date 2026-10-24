@@ -17,7 +17,7 @@ This is simulated data, not a production incident.
 A long-term homelab in VirtualBox (Windows and Linux) that I am building to practice monitoring and incident investigation. It is an early build. What exists today:
 
 - a SOC alert triage template (v1.0) with sections for evidence, indicators, disposition, ATT&CK mapping and escalation
-- a first case, `BL-ALT-2026-001` (failed Windows logons), which is still being completed
+- a completed first case, [`BL-ALT-2026-001`](https://github.com/Blacklight0998/Blacklight-Enterprise-Lab/blob/main/incident-response/cases/BL-ALT-2026-001/triage.md): four failed Windows logons (incorrect PIN) that I generated as a test, investigated with the Security log and closed as a Benign Positive
 
 The lab does not have a SIEM deployed yet.
 
