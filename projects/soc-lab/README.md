@@ -17,12 +17,11 @@ This is simulated data, not a production incident.
 A long-term homelab in VirtualBox (Windows and Linux) that I am building to practice monitoring and incident investigation. It is an early build. What exists today:
 
 - a SOC alert triage template (v1.0) with sections for evidence, indicators, disposition, ATT&CK mapping and escalation
-- a completed first case, [`BL-ALT-2026-001`](https://github.com/Blacklight0998/Blacklight-Enterprise-Lab/blob/main/incident-response/cases/BL-ALT-2026-001/triage.md): four failed Windows logons (incorrect PIN) that I generated as a test, investigated with the Security log and closed as a Benign Positive
-
-The lab does not have a SIEM deployed yet.
+- an Azure Sentinel SIEM pipeline (Azure Monitor Agent → Log Analytics → Sentinel) with KQL-based detections
+- two closed cases: [`BL-ALT-2026-001`](https://github.com/Blacklight0998/Blacklight-Enterprise-Lab/blob/main/incident-response/cases/BL-ALT-2026-001/triage.md) (four failed Windows logons from an incorrect PIN, investigated with the Security log) and [`BL-ALT-2026-002`](https://github.com/Blacklight0998/Blacklight-Enterprise-Lab/blob/main/incident-response/cases/BL-ALT-2026-002/triage.md) (a simulated RDP brute-force attack, detected end-to-end by a custom Sentinel Analytics Rule)
 
 ## Next steps
 
-- deploy a SIEM and forward Windows and Linux logs to it
 - rewrite the SSH log audit as a triage report using the lab template
+- a third case testing a valid account with a wrong password, to compare against case 002's non-existent-account scenario
 - document more cases with evidence, disposition and ATT&CK mapping only where the evidence supports it
