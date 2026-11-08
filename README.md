@@ -96,3 +96,4 @@ Smaller university exercises are kept in the [coursework archive](./coursework-a
 
 - Email: `andyvear98@gmail.com`
 - GitHub: [Blacklight0998](https://github.com/Blacklight0998)
+- Linkedin : [Andy Vega Araya](www.linkedin.com/in/andy-vega-araya-5299a136a)
